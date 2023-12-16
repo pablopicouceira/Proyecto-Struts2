@@ -34,6 +34,11 @@
        <s:text name="form.toDate.message"/>
        <sx:datetimepicker id="dateTo" name="invoiceBean.dateTo" />
     </td>
+      <td class="evenRow">
+        <s:fielderror fieldName = "invoiceBean.grossAmount" />
+        <s:text name="form.grossAmount.message"/>
+        <s:textfield id="grossAmount" name="invoiceBean.grossAmount"/>
+      </td>
 
   </tr>
   <tr>
